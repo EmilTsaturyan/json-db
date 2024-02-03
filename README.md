@@ -1,10 +1,10 @@
-Welcome to json-db Documentation
+Welcome to simplejsoncsvdb Documentation
 =======================================
 
 Overview
 --------
 
-`json-db` is a lightweight Python package providing a `DataBase` class for key-value storage. This documentation aims to help users understand how to use the package effectively.
+`simplejsoncsvdb` is a lightweight Python package providing a `DataBase` class for key-value storage. This documentation aims to help users understand how to use the package effectively.
 
 Installation
 ------------
@@ -12,7 +12,7 @@ Installation
 You can install the package using `pip`:
 
 
-    pip install json-db
+    pip install simplejsoncsvdb
 
 Usage
 -----
@@ -24,7 +24,7 @@ Example 1: Creating a Database Instance and Adding an Entry
 ----------------------------------------------------------
 
 
-    from PyKeyValueStore import DataBase
+    from simplejsoncsvdb import DataBase
 
     # Create a database instance
     my_database = DataBase("example_database")
@@ -35,7 +35,6 @@ Example 1: Creating a Database Instance and Adding an Entry
 Example 2: Retrieving an Entry from the Database
 ------------------------------------------------
 
-.. code-block:: python
 
     # Retrieve an entry from the database
     entry = my_database.get_entry("key1")
